@@ -1,8 +1,9 @@
-# Homework-3
-Tamires Amorim, Yamei Li and Meirou Guan - Lab 3
-Homework 3
-Tamires Amorim, Yamei Li and Meirou Guan
-10/4/2020
+---
+title: "Homework 3"
+author: "Tamires Amorim, Yamei Li and Meirou Guan"
+date: "10/4/2020"
+output: github_document
+---
 load("workspace.RData")
 attach(dat_NYC)
 borough_f <- factor((in_Bronx + 2*in_Manhattan + 3*in_StatenI + 4*in_Brooklyn + 5*in_Queens), levels=c(1,2,3,4,5),labels = c("Bronx","Manhattan","Staten Island","Brooklyn","Queens"))
